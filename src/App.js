@@ -2,12 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const name = 'Phương Nguyễn';
+  const age = '32';
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Phương Nguyễn
+          hello {name} - {age}
         </p>
         <a
           className="App-link"
